@@ -11,10 +11,11 @@
     <testsuites>
         <testsuite name="App Tests">
             <directory>tests</directory>
+            <blacklist>
+                  <directory>./vendor</directory>
+            </blacklist>
         </testsuite>
     </testsuites>
 </phpunit>
 
-<blacklist>
-         <directory>./vendor</directory>
-</blacklist>
+
