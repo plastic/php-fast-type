@@ -14,3 +14,7 @@
         </testsuite>
     </testsuites>
 </phpunit>
+
+<blacklist>
+         <directory>./vendor</directory>
+</blacklist>
